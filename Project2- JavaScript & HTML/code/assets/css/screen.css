@@ -1,0 +1,128 @@
+
+body {
+    text-align: center; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background-color: #f0f0f0; 
+}
+#myCanvas {
+    display: none; 
+    border: 1px solid black; 
+}
+
+h1 {
+    margin-bottom: 20px; 
+    font-family: 'Chewy', cursive;
+    font-size: 32px; 
+    color: #371a058e; 
+}
+
+
+canvas {
+    border: 2px solid black; 
+}
+
+canvas {
+    border: 5px solid #000000;
+}
+body {
+    background-color: #D2B48C; 
+}
+/* Style for the form container */
+form {
+    background-color: #f3e7d8; 
+    border: 2px solid #f5f5f2; 
+    border-radius: 10px;   
+    padding: 20px;   
+    width: 250px;  
+    margin: 20px auto; 
+    box-shadow: 0px 4px 6px rgba(198, 161, 98, 0.1); 
+}
+
+/* Style for the text input */
+#nameInput {
+    width: 80%; 
+    padding: 10px;            
+    margin-bottom: 15px;     
+    border: 1px solid #cccccc;   
+    border-radius: 5px;      
+    font-size: 16px;   
+    font-family: 'Chewy', cursive;
+    color:#381e05 ;  
+
+    outline: none; 
+    transition: border-color 0.3s; 
+}
+
+#nameInput:focus {
+    border-color: #241704;   
+}
+
+/* Style for the submit button */
+input[type="submit"] {
+    background-color: #52360a; 
+    color: rgb(190, 174, 146);              
+    padding: 10px 20px;        
+    border: none;              
+    border-radius: 5px;        
+    font-size: 16px;          
+    font-family: 'Chewy', cursive; 
+    cursor: pointer;          
+    transition: background-color 0.3s, transform 0.2s; 
+}
+
+input[type="submit"]:hover {
+    background-color:rgb(190, 174, 146); 
+    color:#52360a ;  
+    transform: scale(1.05);   
+}
+
+input[type="submit"]:active {
+    background-color: #ffffff; 
+    transform: scale(1);       
+}
+#muteButton {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #52360a; 
+    color: rgb(190, 174, 146); 
+    border: 2px solid #52360a; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    font-family: 'Chewy', cursive; 
+    cursor: pointer;
+    border-radius: 5px; 
+    transition: background-color 0.3s, transform 0.2s, color 0.3s; 
+}
+
+#muteButton:hover {
+    background-color: rgb(190, 174, 146); 
+    color: #52360a;
+    transform: scale(1.05); 
+}
+
+#muteButton:active {
+    background-color: #ffffff; 
+    color: #52360a; 
+    transform: scale(1); 
+}
+
+#greeting {
+    font-size: 24px;
+    color: #fff1e6;
+    font-family: 'Chewy', cursive;
+    margin-top: 5px;
+}
+
+
+.wrapper {
+    justify-content: center; /* Centers horizontally */
+    align-items: center;     /* Centers vertically */
+       /* Remove default margin */
+}
